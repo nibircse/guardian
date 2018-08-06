@@ -12,7 +12,7 @@ def ResultHandler(t, result):
 
 
 def Test():
-    test = t.Test(0, "p2p status")
+    test = t.Test(0, "p2p", "status")
     test.SetExecutor(Executor)
     test.SetHandler(ResultHandler)
 
